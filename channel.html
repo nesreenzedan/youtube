@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>يوتيوبي قناة الاكاديمية</title>    
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+  </head>
+ <body class="mt-5 rtl">
+   <div id="top-menu">
+     <div class="container-fluid">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top "><a class="navbar-brand" href="index.html">يوتيوبي</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mx-lg-auto ">
+             <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">الفيدوهات المقترحة</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link ml-3" href="#">المرفوعة حديثاً</a>
+             </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" >الفيدوهات الرائجة</a> 
+              </li>
+              <li class="nav-item">
+               <a class="nav-link  btn btn-info text-white d-inline-block" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">تسجيل الدخول</a>
+              </li>
+           </ul>
+           <div class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2 " type="search" placeholder="Search">
+             <button onclick="location.href='search.html';" class="btn btn-outline-info my-2 my-sm-0">ابحث</button>
+           </div>
+          </div>
+       </nav>
+       <!-- Modal -->
+        <div class="modal fade  " id="loginModal" tabindex="-1" >
+          <div class="modal-dialog modal-dialog-centered ">
+           <div class="modal-content ">
+             <div class="modal-header ">
+               <h5 class="modal-title " id="exampleModalLabel">تسجيل الدخول</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" ><spam>&times;</spam></button>
+             </div>
+             <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="email" class="col-form-label">البريد الالكتروني:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="col-form-label">كلمة المرور:</label>
+                  <input type="password" class="form-control" id="password">
+                  
+                </div>
+              </form>
+              </div>
+              <div class="modal-footer">
+                <a href="">نسيت كلمة المرور</a>
+                <a href=""class="mx-auto" >انشاء حساب</a>
+                <button type="button" class="btn btn-outline-primary">دخول </button>
+              </div>
+            </div>
+         </div>
+        </div>   
+      </div>
+   </div>
+    
+   <div class="channel-page">
+     <div class="container-fluid">
+       <div class="row">
+         <div class="banner position-relative">
+           <img class="img-fluid" src="img/h-channel.jpg" alt="">
+           <div class="social media position-absolute bg-secondary p-1" style="bottom: 18px; left: 20px;">
+             <a href="#" title="اكاديمية حسوب">
+               <img src="img/icons/hsoub.png" alt="Hsoub">
+               اكاديمية حسوب
+              </a>
+             <a href="#" class="mr-1" title="تابعنا على تويتر">
+               <img src="img/icons/twitter.png" alt="Hsoub">
+             </a>
+             <a href="#" class="mr-1" title="تابعنا على فيسبوك">
+               <img src="img/icons/facebook.png" alt="Hsoub">
+             </a>
+             <a href="#"  class="mr-1" title="شركة حسوب">
+               <img src="img/icons/hsoub-web.png" alt="Hsoub">
+             </a>
+           </div>
+           <div class="follow position-absolute  "style="bottom: 18px;right: 18px;">
+             <button class="btn btn-info"> اشتراك 2560</button>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto w-100 px-0">
+          <ul class="navbar-nav mx-lg-auto d-block pl-0">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link ml-2" href="#"> فيدوهاتي</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#" tabindex="-1" >القنوات</a> 
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#" tabindex="-1" >قوائم التشغيل</a> 
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#" tabindex="-1" >مناقشة</a> 
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#" tabindex="-1">حول</a> 
+             </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="video-section bg-white p-2 mt-3 ">
+          <div class="card border-0" >
+            <div class="row">
+             <div class="col-md-6">
+               <video src="video/hsoub.mp4" controls poster="img/poster.png"  autoplay muted class="w-100">
+                 <track kind="captions" src="video/caption.vtt" srclang="ar" label="عربي" default>
+                 لا يدعم المتصفح العنصر <code>vedio</code>
+               </video>
+             </div>
+              <div class="col-md-6">
+                <div class="card-block">
+                  <a href="watch.html"><h4>اكاديمية حاسوب لتعليم البرمجة باللغة العربية</h4></a>
+                  <p>  دورة تطوير واجهات المستخدم -اكاديمية حاسوب   </p>
+                  <div class="card-footer">
+                    <small class="text-muted">
+                      <i class="fas fa-film"></i> <span>3الاف مشاهدة</span>
+                      <i class="fas fa-clock"></i> <span>قبل 9اشهر</span>
+                    </small>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+   </div>
+
+    <script src="https://kit.fontawesome.com/cac9a31e89.js" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js">s</script>
+ </body>
+    
+</html>
